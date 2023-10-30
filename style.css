@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(15, 15, 15);
 }
 .game{
     width: 400px;
@@ -14,7 +14,7 @@ body{
     margin-top: 100px;
 }
 .title{
-    background-color: #003193;
+    background-color: #530093;
     padding: 0 0 5px 0;
     margin: 5px 0;
     font-size: 60px;
