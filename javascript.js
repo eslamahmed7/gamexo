@@ -3,9 +3,9 @@ let title = document.querySelector(".title")
 let squares = []
 function end(num1, num2, num3){
     title.innerHTML = `${squares[num1]} Winner`
-    document.getElementById("box" + num1).style.background = "#000"
-    document.getElementById("box" + num2).style.background = "#000"
-    document.getElementById("box" + num3).style.background = "#000"
+    document.getElementById("box" + num1).style.background = "#1a9900"
+    document.getElementById("box" + num2).style.background = "#1a9900"
+    document.getElementById("box" + num3).style.background = "#1a9900"
 
     setInterval(function() {title.innerHTML += "."},1000)
     setTimeout(function(){location.reload()},4000)
